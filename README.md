@@ -17,14 +17,14 @@ This code snippet executes the following tasks:
 
 ```json
 {
-    "Name": "DistributionGroup1",
+    "GroupIdentity": "DistributionGroup1",
     "DisplayName": "DistributionGroup1",
     "PrimarySmtpAddress": "DistributionGroup1@myenvironment.onmicrosoft.com",
     "Alias": "DistributionGroupAlias"
 }
 ```
 
-> :exclamation: It is important to note that the names of your form fields might differ. Ensure that the `$formObject` hashtable is appropriately adjusted to match your form fields.
+> :exclamation: It is important to note that the names of your form fields might differ. Ensure that the `$formObject` hashtable is appropriately adjusted to match your form fields. [See the Microsoft Docs page](https://learn.microsoft.com/en-us/powershell/module/exchange/new-distributiongroup?view=exchange-ps)
 
 2. Constructs a PowerShell credential object from the supplied administrative username and password
 

@@ -2,7 +2,7 @@
 ###############################################################
 # Form mapping
 $formObject = @{
-    Name               = $form.Name
+    Name               = $form.GroupIdentity
     DisplayName        = $form.DisplayName
     PrimarySmtpAddress = $form.PrimarySmtpAddress
     Alias              = $form.Alias
